@@ -1,0 +1,56 @@
+.discussion_item{ 
+  
+  margin: .3rem;
+  background-color: transparent;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+
+  margin-right: 2rem;
+}
+.discussion_item__top{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.discussion_item__top>div:nth-child(1){
+  padding: 1rem;
+  display: flex;
+  
+
+}
+.discussion_item__comment{
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+  
+}
+.discussion_item__type{
+  flex-basis: 13rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius:1rem ;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.discussion_item__type__error{
+  background-color: #fdb1a5;
+  color: #ce5d48;
+}
+.discussion_item__type__feature{
+  background-color: #ffedb0;
+  color: #d8a75c;
+}
+.discussion_item__type__approve{
+  background-color: #91efd1;
+  color: #3ea381;
+}
+.discussion_item__type__none{
+  background-color: #ECF7ED;
+  color:#82b4f0;
+}

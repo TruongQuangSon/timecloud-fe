@@ -1,0 +1,89 @@
+.report_item{
+    flex: 1;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 1.5rem;
+}
+.report_item__project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.report_item__project_name{
+    display: flex;
+    flex-direction: row;
+}
+
+.report_item__project_name>h2{
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0.70rem;
+}
+
+.report_item__project_name>h3{
+    font-size: 1.5rem;
+    margin-top: 0.70rem;
+    color: darkgray;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.report_item__project_name_isDone>h3{
+    font-size: 1.4rem;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    color:white;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    vertical-align: middle;
+}
+
+.report_item__project__right>p{
+    font-weight: bold;
+    color: var(--color-button);
+    font-size: 2rem;
+    margin-top: 0.70rem;
+}
+
+.report_item__project__right {
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+}
+
+.report_item__salary {
+    position: relative;
+}
+
+.report_item__salary>button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.report_item__salary__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: large;
+    width: 20rem;
+}
+
+.report_item__salary__left>p {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.report_item__salary__right>p {
+    padding-bottom: 1rem;
+}
+
+/* .toggle_item{
+    padding-left: 4rem;
+} */
+
+/* style={{height:"30px",
+    width:"70px", 
+    background:"rgb(204, 13, 13)", 
+    borderRadius:"15px 15px 15px 15px",}} */

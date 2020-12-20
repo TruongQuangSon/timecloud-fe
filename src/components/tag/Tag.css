@@ -1,0 +1,47 @@
+.tag__content {
+  display: inline-block;
+  text-align: start;
+  
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: 'Montserrat', sans-serif;
+  flex-wrap: wrap;
+  /* font-family: 'Quicksand', sans-serif; */
+
+}
+
+.tag__item {
+  border-radius: 2.2rem;
+  overflow: hidden;
+  padding: 1.15rem 1.1rem;
+  margin-right: .5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: var(--color-light-tertiary);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #313131;
+  margin-bottom: 1rem;
+}
+
+.tag__item>button {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin-left: .5rem;
+  cursor: pointer;
+  
+}
+
+.tag__item>button>.MuiSvgIcon-root {
+  font-size: 1.4rem;
+  color: var(--color-dark-tertiary);
+  vertical-align: top;
+}

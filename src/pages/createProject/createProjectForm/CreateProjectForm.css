@@ -1,0 +1,124 @@
+.project_form_field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  font-family: "Quicksand";
+}
+
+.project_form_field * {
+  box-sizing: border-box;
+}
+
+.project_form_field>label,
+.project_form_field__color>label {
+  flex-basis: 25%;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--color-dark-secondary);
+
+}
+
+.project_form_field>input {
+  border-radius: 0;
+  border: none;
+  padding: 1rem;
+  padding-top: 0;
+  outline: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-bottom: 2px solid var(--color-button);
+  box-shadow: 1px 1px 2px solid var(0, 0, 0, .8);
+}
+
+.create_project_form__error{
+
+  color: var(--color-error);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: left;
+  flex: 1;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  line-height: 1rem;
+}
+.create_project_form__error>.MuiSvgIcon-root{
+  font-size: 2.5rem;
+}
+
+
+.project_form_field>input::placeholder {
+  color: var(--color-dark-tertiary);
+  text-transform: capitalize;
+  font-size: 1.8;
+}
+
+
+.project_form_field__color>div {
+  flex: .4;
+  margin-right: 5rem;
+  padding-top: .3rem;
+}
+
+.project_form_field__color>div>h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--color-dark-secondary);
+
+}
+
+.project_form_field__color>div>p {
+  font-size: 1.5rem;
+  color: var(--color-dark-tertiary);
+
+
+}
+
+
+
+.project_form_field__color>input {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 3rem;
+  height: 8rem;
+  flex-basis: 10rem;
+  flex-grow: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.create_project_form__project__top {
+  width: 60%;
+}
+
+.project_form_field__color>input::-webkit-color-swatch-wrapper {
+  padding: 0;
+
+}
+
+.project_form_field__color>input::-webkit-color-swatch {
+  border-top-right-radius: 2.8rem;
+  border-bottom-right-radius: 2.8rem;
+  border-top-left-radius: .8rem;
+  border-bottom-left-radius: .8rem;
+  border: none;
+
+}
+
+input.project_form__input {
+
+  
+  outline: none;
+  border: 2px solid var(--color-button);
+  width: auto;
+  padding: .8rem .5rem;
+  border-radius: 2rem;
+  background-color: var(--color-light-tertiary);
+  margin-right: 1rem;
+}

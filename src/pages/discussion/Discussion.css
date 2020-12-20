@@ -1,0 +1,171 @@
+.discussion {
+  position: relative;
+}
+.discussion__header>* {
+    flex-grow:1;
+
+}
+.discussion__content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 74vh;
+    min-height: 15rem;
+    
+}
+.discussion__filter {
+  display: flex;
+}
+.discussion__filter >span{
+  background-color: #8586F5;
+  color: white;
+  border-radius: .5rem;
+  padding: .5rem;
+  height: fit-content;
+  font-weight: 700;
+  margin-right: .3rem;
+  box-shadow: 1px 1px 3px rgba(133,134,245, .6);
+  margin-top: 1px;
+}
+.discussion__filter__item{
+  position: relative;
+  border: 1px solid #8586F5;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 8px rgba(133,134,245, .7);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.discussion__filter__type{
+  width: 13rem;
+  margin-right: 2rem;
+}
+.discussion__filter__project{
+  width: 18rem;
+}
+
+.discussion__filter__item>span{
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: .5rem 2rem;
+}
+.discussion__filter__item>.MuiSvgIcon-root{
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+.discussion__content_dd_project>p{
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: .5rem 1.5rem;
+}
+.discussion__content_dd_project>p>span{
+  font-size: 1.3rem;
+  background-color: var(--color-error);
+  border: .3rem;
+  border-radius: .5rem;
+  padding: .1rem .3rem;
+  color : white;
+  margin-left: .5rem;
+}
+.discussion__content_dd_project>p:hover{
+  background-color: #D7D9DE;
+}
+
+.discussion__content::-webkit-scrollbar {
+  width: 1rem;
+  
+}
+
+.discussion__content::-webkit-scrollbar-track {
+  background: white;
+  
+}
+
+/* Handle */
+.discussion__content::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: .5rem;
+}
+
+.discussion__content>p {
+  height: 20vh;
+  font-size: large;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.discussion__footer {
+    position: fixed;
+    width: fit-content;
+    bottom: 1rem;
+    left: 1rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.discussion__footer>button{
+  outline: none;
+  border: none;
+  background-color: #E4E6EB;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.discussion__footer>button:hover{
+  background-color: #ced8e1;
+}
+.discussion__footer>button>.MuiSvgIcon-root{
+  color: #1D1F23;
+  font-weight: 600;
+  font-size: 2.3rem;
+  
+}
+
+.discussion__footer__input{
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s;
+  display: flex;
+  align-items: center;
+}
+.discussion__footer__input.visible{
+  width: 50vw;
+  opacity: 1;
+  overflow: visible;
+  height: fit-content;
+}
+.discussion__footer__input >form{
+  flex: 1;
+}
+
+.discussion__footer__input >form> input {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    background-color: #F0F2F5;
+    font-size: large;
+    box-shadow: 2px 2px 1rem rgba(0, 0, 0, .6);
+
+}

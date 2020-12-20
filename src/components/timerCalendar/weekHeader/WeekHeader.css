@@ -1,0 +1,25 @@
+.week_header {
+
+    background-color: white;
+    margin-bottom: 3rem;
+    padding: 0 5rem;
+    padding-top: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.week_header__content{
+  display: flex;
+  justify-content: space-between;
+}
+.week_header__content>*{
+  flex: .9;
+}
+
+/* .week_header__total {
+    flex: 1;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+

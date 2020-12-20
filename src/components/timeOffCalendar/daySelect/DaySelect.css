@@ -1,0 +1,104 @@
+.day_select{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.day_select__left{
+  display: flex;
+}
+.day_select__multiple{
+  
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3rem;
+  
+}
+.day_select__multiple>button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px .3rem rgba(0, 0, 0, .5);
+} 
+.day_select__multiple>span{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #272727;
+  padding: 0 1rem;
+  min-width: 12rem;
+  text-align: center;
+} 
+.day_select__single{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day_select__single>button{
+  outline: none;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 0.2rem rgba(0, 0, 0, .4);
+  border-radius: .7rem;
+  padding: .43rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #7F7F7F;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.day_select__right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day_select__right>span{
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #6E6E6E;
+  padding: 1.2rem;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #363636;
+}
+.day_select__right__dd{
+  position: relative;
+}
+.day_select__right__dd>span{
+
+  background-color: #EEEEEE;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 11rem;
+}
+.day_select__right__dd>span>.MuiSvgIcon-root{
+  font-size: 2rem;
+  color: #6C6C6C;
+  
+}
+.day-select__dd>p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+.day-select__dd>p:hover{
+  background-color: #EEEEEE;
+}

@@ -1,0 +1,18 @@
+.select_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .5rem;
+}
+
+.select_item>button {
+  margin-right: 1rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.select_item>button>.MuiSvgIcon-root {
+  vertical-align: middle;
+}

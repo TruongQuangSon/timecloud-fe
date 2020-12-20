@@ -1,0 +1,28 @@
+.page_design{
+  padding: 0 10rem;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+.page_design__header{
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--color-light-tertiary);
+  
+}
+.page_design__header__left{
+
+}
+.page_design__header__left>h2{
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+
+.page_design__header__right{}
+.page_design__content{
+  margin-top: 2rem;
+  
+}

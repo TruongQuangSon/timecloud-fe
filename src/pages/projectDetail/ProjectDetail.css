@@ -1,0 +1,53 @@
+
+.project_detail {
+    margin: 0 10%;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.project_detail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3rem;
+}
+
+.project_detail__header_info {
+    margin-top: 5rem;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.create__info {
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    color:gray;
+}
+
+.project_detail>p {
+    display: flex;
+    font-size: 5rem;
+    font-weight: 400;
+    color: rgba(223, 16, 27, 0.979);
+}
+
+.project_detail__menu_link {
+    margin-top: 5rem;
+    font-size: large;
+}
+
+.tracked_time__hours p {
+    display: flex;
+    font-size: 6rem;
+    font-weight: 400;
+    color: var(--color-button);
+    font-weight: 500;
+}
+
+.project_detail_feature {
+    margin: 0 0 -2rem -3rem;
+}
+
+.project_detail__chart {
+    margin-bottom: 5rem;
+}

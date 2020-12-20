@@ -1,0 +1,124 @@
+.header {
+  --background-color-header: #192542;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color-header);
+
+  color: var(--color-light-primary);
+  padding: 0 2rem;
+  
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.header__logo>.MuiSvgIcon-root {
+  position: relative !important;
+  top: 0;
+  left: 0;
+}
+
+.header__feature {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.header__feature>a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-light-primary);
+  padding: 1.5rem 1rem;
+  margin-right: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  user-select: none;
+}
+
+.header__feature__active{
+  position: relative;
+  border-bottom-color: rgb(0,153,255) !important;
+}
+
+
+.header__account {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header__account>img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 999px;
+  margin-right: 10px;
+}
+
+.header__account>p {
+  margin-right: 1rem;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.header__drop_down {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 100%);
+  background-color: var(--background-color-header);
+  color: var(--color-light-primary);
+  z-index: 1;
+
+  box-shadow: var(--box-shadow-primary);
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
+
+.header__account>button {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.header__account>button>.MuiSvgIcon-root {
+  color: var(--background-color-header);
+  background-color: var(--color-light-primary);
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.header__account>button>.MuiSvgIcon-root:hover,
+.header__account>button:checked>.MuiSvgIcon-root {
+  background-color: var(--color-light-primary);
+  color: var(--color-button);
+}
+
+.header__drop_down>p {
+  padding: 1.5rem 4rem;
+  white-space: nowrap;
+  font-size: 1.7rem;
+}
+
+.header__drop_down>p:hover {
+  background-color: var(--color-light-primary);
+  color: var(--background-color-header);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.header__account>.MuiSvgIcon-root {}
+
